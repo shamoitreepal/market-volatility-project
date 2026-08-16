@@ -1,0 +1,28 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     Realized_Volatility   R-squared:                       0.213
+Model:                             OLS   Adj. R-squared:                  0.188
+Method:                  Least Squares   F-statistic:                     1.534
+Date:                 Mon, 17 Aug 2026   Prob (F-statistic):              0.196
+Time:                         00:32:12   Log-Likelihood:                -281.45
+No. Observations:                  131   AIC:                             572.9
+Df Residuals:                      126   BIC:                             587.3
+Df Model:                            4                                         
+Covariance Type:                   HAC                                         
+==============================================================================
+                 coef    std err          z      P>|z|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          8.4376      2.079      4.058      0.000       4.363      12.512
+Oil_Return    -0.0574      0.055     -1.042      0.297      -0.165       0.051
+FX_Return      0.4035      0.239      1.692      0.091      -0.064       0.871
+Inflation     -0.8990      0.444     -2.026      0.043      -1.769      -0.029
+Real_Repo     -0.7648      0.336     -2.275      0.023      -1.424      -0.106
+==============================================================================
+Omnibus:                      106.539   Durbin-Watson:                   0.993
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1126.973
+Skew:                           2.770   Prob(JB):                    1.91e-245
+Kurtosis:                      16.258   Cond. No.                         65.5
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 1 lags and without small sample correction

@@ -1,0 +1,7 @@
+EGARCH RESIDUAL DIAGNOSTIC
+---------------------------
+
+ARCH-LM statistic: 13.457135557031805
+ARCH-LM p-value: 0.19922348198302134
+
+Conclusion: No significant ARCH effects remain.

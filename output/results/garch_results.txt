@@ -1,0 +1,29 @@
+GARCH(1,1) RESULTS
+==================
+
+Number of observations: 2707
+
+Mean:
+mu = 0.0675
+p-value = 3.483e-05
+
+Volatility:
+omega = 0.0237
+p-value = 0.006201
+
+alpha[1] = 0.1041
+p-value = 1.126e-05
+
+beta[1] = 0.8724
+p-value = 1.867e-223
+
+Alpha + Beta = 0.9765
+
+Log-Likelihood = -3458.57
+AIC = 6925.13
+BIC = 6948.75
+
+Interpretation:
+The GARCH(1,1) model shows significant ARCH and GARCH
+effects. Volatility is highly persistent, with alpha + beta
+equal to 0.9765.

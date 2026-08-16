@@ -1,0 +1,35 @@
+GJR-GARCH(1,1) RESULTS
+======================
+
+Number of observations: 2707
+
+Mean:
+mu = 0.0414
+p-value = 0.007777
+
+Volatility:
+omega = 0.0344
+p-value = 0.003480
+
+alpha[1] = 0.0286
+p-value = 0.316
+
+gamma[1] = 0.1481
+p-value = 0.0003585
+
+beta[1] = 0.8569
+p-value = 1.952e-105
+
+Log-Likelihood = -3427.65
+AIC = 6865.31
+BIC = 6894.83
+
+Interpretation:
+The GJR-GARCH model provides evidence of asymmetric volatility in NIFTY returns. The gamma 
+coefficient is positive and statistically significant, indicating that negative shocks 
+have an additional effect on volatility.
+
+The model also shows high volatility persistence.
+
+Compared with the standard GARCH(1,1) model, GJR-GARCH has lower AIC and BIC, indicating
+better model fit.

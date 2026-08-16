@@ -1,0 +1,29 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     Realized_Volatility   R-squared:                       0.475
+Model:                             OLS   Adj. R-squared:                  0.454
+Method:                  Least Squares   F-statistic:                     31.06
+Date:                 Mon, 17 Aug 2026   Prob (F-statistic):           1.94e-20
+Time:                         00:33:40   Log-Likelihood:                -254.94
+No. Observations:                  131   AIC:                             521.9
+Df Residuals:                      125   BIC:                             539.1
+Df Model:                            5                                         
+Covariance Type:                   HAC                                         
+===================================================================================
+                      coef    std err          z      P>|z|      [0.025      0.975]
+-----------------------------------------------------------------------------------
+const               4.3653      1.283      3.403      0.001       1.851       6.880
+Volatility_Lag1     0.5528      0.070      7.845      0.000       0.415       0.691
+Oil_Return         -0.0750      0.049     -1.532      0.125      -0.171       0.021
+FX_Return           0.4369      0.214      2.044      0.041       0.018       0.856
+Inflation          -0.8836      0.450     -1.965      0.049      -1.765      -0.002
+Real_Repo          -0.4268      0.214     -1.995      0.046      -0.846      -0.008
+==============================================================================
+Omnibus:                      108.017   Durbin-Watson:                   2.225
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1359.413
+Skew:                           2.736   Prob(JB):                    6.41e-296
+Kurtosis:                      17.803   Cond. No.                         74.6
+==============================================================================
+
+Notes:
+[1] Standard Errors are heteroscedasticity and autocorrelation robust (HAC) using 1 lags and without small sample correction

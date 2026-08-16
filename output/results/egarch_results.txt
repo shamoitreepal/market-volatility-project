@@ -1,0 +1,37 @@
+EGARCH(1,1) RESULTS
+===================
+
+Number of observations: 2707
+
+Mean:
+mu = 0.0381
+p-value = 0.01739
+
+Volatility:
+omega = -0.0038488
+p-value = 0.475
+
+alpha[1] = 0.1675
+p-value = 0.0001155
+
+gamma[1] = -0.0966
+p-value = 1.213e-06
+
+beta[1] = 0.9673
+p-value < 0.001
+
+Log-Likelihood = -3427.51
+AIC = 6865.03
+BIC = 6894.55
+
+Interpretation:
+The EGARCH model provides strong evidence of asymmetric volatility. The negative and statistically 
+significant gamma coefficient indicates that negative shocks have a larger effect onvolatility than positive shocks.
+
+
+The high beta coefficient indicates strong volatility persistence.
+
+
+
+EGARCH has slightly lower AIC and BIC than GJR-GARCH and substantially lower AIC  and
+BIC than standard GARCH.

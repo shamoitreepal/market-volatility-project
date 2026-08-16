@@ -1,0 +1,28 @@
+                             OLS Regression Results                            
+===============================================================================
+Dep. Variable:     Realized_Volatility   R-squared:                       0.213
+Model:                             OLS   Adj. R-squared:                  0.188
+Method:                  Least Squares   F-statistic:                     8.503
+Date:                 Mon, 17 Aug 2026   Prob (F-statistic):           4.17e-06
+Time:                         00:30:24   Log-Likelihood:                -281.45
+No. Observations:                  131   AIC:                             572.9
+Df Residuals:                      126   BIC:                             587.3
+Df Model:                            4                                         
+Covariance Type:             nonrobust                                         
+==============================================================================
+                 coef    std err          t      P>|t|      [0.025      0.975]
+------------------------------------------------------------------------------
+const          8.4376      1.112      7.587      0.000       6.237      10.638
+Oil_Return    -0.0574      0.018     -3.201      0.002      -0.093      -0.022
+FX_Return      0.4035      0.135      2.982      0.003       0.136       0.671
+Inflation     -0.8990      0.368     -2.440      0.016      -1.628      -0.170
+Real_Repo     -0.7648      0.186     -4.118      0.000      -1.132      -0.397
+==============================================================================
+Omnibus:                      106.539   Durbin-Watson:                   0.993
+Prob(Omnibus):                  0.000   Jarque-Bera (JB):             1126.973
+Skew:                           2.770   Prob(JB):                    1.91e-245
+Kurtosis:                      16.258   Cond. No.                         65.5
+==============================================================================
+
+Notes:
+[1] Standard Errors assume that the covariance matrix of the errors is correctly specified.
